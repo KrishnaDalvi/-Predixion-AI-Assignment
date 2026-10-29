@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "question": "Compare Chroma and Qdrant for an early RAG prototype",
+  "short_answer": "I could not retrieve usable sources, so I cannot provide a reliable research answer.",
+  "key_findings": [],
+  "sources_used": [],
+  "confidence": "low",
+  "confidence_rationale": "No usable source evidence was retrieved.",
+  "assumptions": [],
+  "limitations": [
+    "The research tools did not return usable evidence."
+  ],
+  "suggested_next_steps": [
+    "Check tool credentials and provider availability, then retry."
+  ],
+  "plan": {
+    "task_type": "comparison",
+    "search_queries": [
+      "Compare Chroma and Qdrant for an early RAG prototype official documentation comparison",
+      "Compare Chroma and Qdrant for an early RAG prototype independent review tradeoffs"
+    ],
+    "steps": [
+      "Search the web for relevant primary and corroborating sources.",
+      "Extract content from the strongest distinct results and filter weak evidence.",
+      "Synthesize a cited answer and validate its structure and citations."
+    ],
+    "selected_tools": ["web_search", "source_extract"]
+  },
+  "tools_used": [],
+  "errors": ["Demo search failure: simulated provider timeout."]
+}
